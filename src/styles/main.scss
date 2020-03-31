@@ -1,6 +1,63 @@
 // This is where your styles can go, import any other scss or css files here or write your own style directly below
 
-body,
-body * {
+body {
   box-sizing: border-box;
+  background-color: black;
+  background-image: url("../img/circle.png");
+}
+
+h1 {
+  color: yellow;
+  font-size: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  background-color: black;
+  border: 5px dotted yellow;
+  /* background-image: linear-gradient(yellow, black, yellow); */
+  font-family: 'Do Hyeon', sans-serif;
+  margin: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.portrait {
+  width: 15%;
+  height: 15%;
+}
+
+.description {
+  /* padding: 5rem; */
+  background-color: black;
+  color: yellow;
+  border: 5px dotted yellow;
+  /* background-image: linear-gradient(yellow, black, yellow); */
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+  /* margin: 5rem; */
+  padding: 2rem;
+  width: 30%;
+  margin: 0rem 0rem 0rem 5rem;
+}
+
+.beer_image {
+  border: 5px dotted yellow;
+  background-color: black;
+  width: 30%;
+  margin: 0rem 5rem 0rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(yellow, black, yellow); */
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.richi {
+
+  height: 70%;
 }
